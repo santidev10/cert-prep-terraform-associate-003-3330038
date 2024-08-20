@@ -84,5 +84,7 @@
 #   type = tuple([string, number, bool])
 # }
 
-
+# PRIMITIVES: STRING, BOOL, NUMBER
+# COLLECTIONS: LIST, MAP, SET
+# STRUCTURAL: OBJECT, TUPLE
 
