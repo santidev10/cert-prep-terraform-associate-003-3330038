@@ -8,7 +8,14 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
-  profile = ""
-  # Configuration options
+  region                   = "us-east-1"
+  profile                  = "santi"
+  shared_credentials_files = ["~/.aws/credentials"]
+}
+
+provider "aws" {
+  alias                    = "west"
+  region                   = "us-west-1"
+  profile                  = "santi"
+  shared_credentials_files = ["~/.aws/credentials"]
 }
