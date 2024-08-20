@@ -11,7 +11,7 @@ terraform.tfplan
 *.pem
 
 # Ignore Terraform variable files
-*.tfvars
+# *.tfvars
 
 # Ignore lock information files
 *.lock.info
